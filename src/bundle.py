@@ -1,7 +1,7 @@
 import os
 import re
 
-INCLUDE_PATTERN = re.compile("(/\\* *include=(.*) *\\*/)")
+INCLUDE_PATTERN = re.compile("(/\\* *include=\"(.*)\" *\\*/)")
 
 
 def bundle(src_file_path, dst_file_path=None, encoding='utf-8'):
